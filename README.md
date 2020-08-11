@@ -5,7 +5,7 @@ In the project directory, you can run:
 ## `npm install`
 ## `npm run start`
 
-The Forex data gets updated every min using the api generated from api gateway
+The Forex data shows inside the table gets updated every min using the api generated from api gateway
 
 
 
