@@ -45,7 +45,7 @@ class App extends Component {
             element.Curr = element.Curr.slice(0,3) + "/" + element.Curr.slice(3, 6) 
           });
         this.setState({ data: [...data] });
-        this.intervalID = setTimeout(this.getData.bind(this), 3000);
+        this.intervalID = setTimeout(this.getData.bind(this), 30000);
       });
 
 
@@ -79,7 +79,7 @@ class App extends Component {
                 {row.Curr}
               </TableCell>
               <TableCell >{row.Rate}</TableCell>
-              <TableCell >{"updated" + row.Timestamp + "milli seconds ago"}</TableCell>
+              <TableCell >{ row.Timestamp }</TableCell>
 
 
             </TableRow>
